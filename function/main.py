@@ -9,9 +9,10 @@ MBFACTOR = float(1<<20)
 
 # mimetypes of files to delete (Slack API 'types' sometimes omits items with no reason)
 mimetypes = (
-                'audio',
-                'image',
-                'video'
+#                'audio',
+#                'image',
+#                'video'
+                'document'
             )
 
 
